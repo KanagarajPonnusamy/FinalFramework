@@ -18,6 +18,8 @@
 		138CFC962010809B00E2AFF4 /* TestIAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 138CFC942010809B00E2AFF4 /* TestIAP.m */; };
 		138CFC99201080C300E2AFF4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138CFC98201080C300E2AFF4 /* StoreKit.framework */; };
 		138CFC9B2010822F00E2AFF4 /* PriceTier.json in Resources */ = {isa = PBXBuildFile; fileRef = 138CFC9A2010822F00E2AFF4 /* PriceTier.json */; };
+		13B6A35B2011C544009A8957 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 13B6A35A2011C544009A8957 /* README.md */; };
+		13B6A35D2011C5C1009A8957 /* FinalFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 13B6A35C2011C5C1009A8957 /* FinalFramework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		138CFC942010809B00E2AFF4 /* TestIAP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIAP.m; sourceTree = "<group>"; };
 		138CFC98201080C300E2AFF4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		138CFC9A2010822F00E2AFF4 /* PriceTier.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PriceTier.json; sourceTree = "<group>"; };
+		13B6A35A2011C544009A8957 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		13B6A35C2011C5C1009A8957 /* FinalFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FinalFramework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 		138CFC292010726900E2AFF4 = {
 			isa = PBXGroup;
 			children = (
+				13B6A35C2011C5C1009A8957 /* FinalFramework.podspec */,
+				13B6A35A2011C544009A8957 /* README.md */,
 				138CFC352010726900E2AFF4 /* FinalFramework */,
 				138CFC402010726900E2AFF4 /* FinalFrameworkTests */,
 				138CFC342010726900E2AFF4 /* Products */,
@@ -214,6 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B6A35B2011C544009A8957 /* README.md in Resources */,
+				13B6A35D2011C5C1009A8957 /* FinalFramework.podspec in Resources */,
 				138CFC9B2010822F00E2AFF4 /* PriceTier.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
