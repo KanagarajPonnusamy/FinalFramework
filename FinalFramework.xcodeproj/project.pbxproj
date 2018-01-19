@@ -17,7 +17,7 @@
 		138CFC952010809B00E2AFF4 /* TestIAP.h in Headers */ = {isa = PBXBuildFile; fileRef = 138CFC932010809B00E2AFF4 /* TestIAP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		138CFC962010809B00E2AFF4 /* TestIAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 138CFC942010809B00E2AFF4 /* TestIAP.m */; };
 		138CFC99201080C300E2AFF4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138CFC98201080C300E2AFF4 /* StoreKit.framework */; };
-		138CFC9B2010822F00E2AFF4 /* PriceTier.json in Resources */ = {isa = PBXBuildFile; fileRef = 138CFC9A2010822F00E2AFF4 /* PriceTier.json */; };
+		138CFC9B2010822F00E2AFF4 /* PriceTier.json in Headers */ = {isa = PBXBuildFile; fileRef = 138CFC9A2010822F00E2AFF4 /* PriceTier.json */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B6A35B2011C544009A8957 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 13B6A35A2011C544009A8957 /* README.md */; };
 		13B6A35D2011C5C1009A8957 /* FinalFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 13B6A35C2011C5C1009A8957 /* FinalFramework.podspec */; };
 /* End PBXBuildFile section */
@@ -134,6 +134,7 @@
 				138CFC442010726900E2AFF4 /* FinalFramework.h in Headers */,
 				138CFC952010809B00E2AFF4 /* TestIAP.h in Headers */,
 				138CFC8C2010772200E2AFF4 /* SampleSwift.swift in Headers */,
+				138CFC9B2010822F00E2AFF4 /* PriceTier.json in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +223,6 @@
 			files = (
 				13B6A35B2011C544009A8957 /* README.md in Resources */,
 				13B6A35D2011C5C1009A8957 /* FinalFramework.podspec in Resources */,
-				138CFC9B2010822F00E2AFF4 /* PriceTier.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
